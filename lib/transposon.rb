@@ -1,5 +1,6 @@
 require 'transposon/configuration'
 require 'transposon/parser'
+require 'transposon/generator'
 require 'transposon/client'
 require 'transposon/version'
 
