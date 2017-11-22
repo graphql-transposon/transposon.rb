@@ -23,4 +23,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+``` ruby
+# pass in a filename
+client = Transposon::Client.new(filename: filename)
+
+# or pass in a string
+client = Transposon::Client.new(schema: contents)
+```
