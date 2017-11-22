@@ -1,6 +1,9 @@
 require 'transposon/configuration'
+require 'transposon/parser'
 require 'transposon/client'
 require 'transposon/version'
+
+require 'hash_dot'
 
 begin
   require 'awesome_print'
